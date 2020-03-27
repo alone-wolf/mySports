@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="About">
+        <Preference
+            app:key="personal_github"
+            app:title="Personal GitHub"
+            app:summary="https://github.com/alone-wolf"/>
+        <Preference
+            app:key="personal_github_page_blog"
+            app:title="Personal GitHub Page Blog"
+            app:summary="https://alone-wolf.github.io"/>
+        <Preference
+            app:key="myrss_repo_address"
+            app:title="myRSS repo address"
+            app:summary="https://github.com/alone-wolf/mySports"/>
+    </PreferenceCategory>
+</PreferenceScreen>

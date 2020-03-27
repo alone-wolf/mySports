@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_bottom"
+    app:startDestination="@id/sportsListFragment">
+
+    <fragment
+        android:id="@+id/sportsListFragment"
+        android:name="com.wh.mysports.SportsListFragment"
+        android:label="sports list"
+        tools:layout="@layout/fragment_sports_list" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.wh.mysports.MoreFragment"
+        android:label="more"
+        tools:layout="@layout/fragment_more" />
+</navigation>
