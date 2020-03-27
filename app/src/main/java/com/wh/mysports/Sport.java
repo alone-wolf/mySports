@@ -18,7 +18,7 @@ public class Sport {
     @ColumnInfo(name = "count")
     private int count;
 
-    public Sport(String type, long startTimeYear, int count) {
+    Sport(String type, long startTimeYear, int count) {
         this.type = type;
         this.startTimeYear = startTimeYear;
         this.count = count;
